@@ -5,6 +5,10 @@
   "repository": "git@github.com:YuMuuu/FP05-slide.git",
   "author": "YuMuuu <c01150788f@edu.teu.ac.jp>",
   "license": "MIT",
+    "scripts": {
+    "dev": "marp --html --server src/",
+    "build": "marp --html --pdf --allow-local-files --title '正確と遅延' src/slide.md -o dist/slide.pdf"
+  },
   "dependencies": {
     "@marp-team/marp-cli": "^0.20.0"
   }
