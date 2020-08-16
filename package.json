@@ -1,0 +1,11 @@
+{
+  "name": "FP05-slide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:YuMuuu/FP05-slide.git",
+  "author": "YuMuuu <c01150788f@edu.teu.ac.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "@marp-team/marp-cli": "^0.20.0"
+  }
+}
